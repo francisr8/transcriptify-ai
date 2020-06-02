@@ -1,0 +1,5 @@
+runtime: python37
+service: default
+resources:
+    disk_size_gb: 30
+entrypoint: gunicorn module.main:app -w 4 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:8080

@@ -1,0 +1,8 @@
+__pycache__
+data/
+audio/
+labels/
+sound_fx/
+results.json
+cgn_audio/
+cgn_labels/
